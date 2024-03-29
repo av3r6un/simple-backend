@@ -1,0 +1,16 @@
+validation:
+  login:
+    not_found: 'Пользователь с таким логином не найден'
+    passwords_mismatch: 'Пароли не совпадают'
+  common:
+    field_absence: 'Недостаточно данных для обработки'
+  register:
+    email_exists: 'Пользователь с таким email уже зарегистрирован'
+    email_validity: 'Указанный email не прошёл проверку'
+    lang: 'Использованы запрещенные символы'
+    short_username: 'Слишком короткое имя пользователя'
+    username_exists: 'Пользователь с таким логином уже зарегистрирован'
+    password_absence: 'Один из паролей отсутствует'
+    weak_password: 'Слишком слабый пароль'
+    passwords_mismatch: 'Пароли не совпадают'
+file_validation:
